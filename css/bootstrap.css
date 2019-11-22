@@ -3581,7 +3581,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 6px 12px;
+/*  padding: 6px 12px;*/
   font-size: 16px;
   line-height: 1.714;
   border-radius: 4px;
@@ -3780,8 +3780,7 @@ fieldset[disabled] .btn-success.focus {
 
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #AA58C6;
 }
 
 .btn-info:focus, .btn-info.focus {
@@ -3792,8 +3791,7 @@ fieldset[disabled] .btn-success.focus {
 
 .btn-info:hover {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #E214FC;
 }
 
 .btn-info:active, .btn-info.active,
