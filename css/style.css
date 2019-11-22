@@ -65,6 +65,10 @@ Theme URI:
 /*------------------------------------------------------------------
 	1. import files
 -------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+font-family: 'Open Sans', sans-serif;
+
 .clearfix:after, .widget:after, .search-form:after, .post-password-form p:after, .navigation-single:after {
   content: '';
   display: block;
@@ -845,7 +849,7 @@ button,
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   border: 2px solid transparent;
-  font: 500 13px/24px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 13px/24px "Open Sans", sans-serif;
 }
 
 .btn-green:focus, .btn-green:active {
@@ -866,7 +870,7 @@ button,
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.4);
-  font: 500 13px/24px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 13px/24px 'Open Sans', sans-serif;
 }
 
 .btn-white:focus, .btn-white:active {
@@ -888,7 +892,7 @@ button,
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   border: 2px solid #e0e0e0;
-  font: 500 13px/24px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 13px/24px 'Open Sans', sans-serif;
 }
 
 .btn-default:focus, .btn-default:active {
@@ -917,7 +921,7 @@ button,
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   border: 2px solid transparent;
-  font: 500 13px/24px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 13px/24px 'Open Sans', sans-serif;
 }
 
 .btn-full:focus, .btn-full:active {
@@ -939,7 +943,7 @@ button,
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
   border: 2px solid #363636;
-  font: 500 13px/24px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 13px/24px 'Open Sans', sans-serif;
 }
 
 .btn-dark:focus, .btn-dark:active {
@@ -961,7 +965,7 @@ button,
   -webkit-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
-  font: 500 8px/14px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 8px/14px 'Open Sans', sans-serif;
 }
 
 .btn-add:focus, .btn-add:active {
@@ -1016,7 +1020,7 @@ button,
   margin: 0;
   color: #fff;
   padding: 14px 0 0;
-  font: 16px/20px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/20px 'Open Sans', sans-serif;
 }
 
 .breadcrumbs a {
@@ -1173,7 +1177,7 @@ button,
   text-align: center;
   position: absolute;
   border-radius: 50%;
-  font: 500 11px/15px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 11px/15px 'Open Sans', sans-serif;
 }
 
 #header .opener.search-opener {
@@ -1185,7 +1189,7 @@ button,
 -------------------------------------------------------------------*/
 .logo {
   color: #363636;
-  font: 500 32px/34px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 32px/34px 'Open Sans', sans-serif;
 }
 
 .logo a {
@@ -1201,7 +1205,7 @@ button,
 #nav {
   float: right;
   margin: 0 59px 0 0;
-  font: 500 12px/15px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 12px/15px 'Open Sans', sans-serif;
 }
 
 #nav ul {
@@ -1210,7 +1214,7 @@ button,
 
 #nav li {
   position: relative;
-  padding: 0 0 0 36px;
+/*  padding: 0 0 0 36px;*/
 }
 
 #nav li:hover .drop {
@@ -1363,7 +1367,7 @@ button,
   color: #fff;
   background: none;
   padding: 15px 0 15px;
-  font: 35px/50px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 35px/50px 'Open Sans', sans-serif;
 }
 
 .search-popup input::-webkit-input-placeholder {
@@ -1496,7 +1500,7 @@ button,
   color: #fff;
   display: block;
   margin: 0 0 3px;
-  font: 11px/16px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 11px/16px 'Open Sans', sans-serif;
 }
 
 .drop-sub .mt-h-title a {
@@ -1508,7 +1512,7 @@ button,
   overflow: hidden;
   margin: -9px 0 11px;
   padding: 0 3px 0 8px;
-  font: 12px/26px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 12px/26px 'Open Sans', sans-serif;
 }
 
 .drop-sub .cart-btn-row {
@@ -1906,7 +1910,7 @@ button,
   -webkit-transition: all 0.4s ease 0.2s;
   -o-transition: all 0.4s ease 0.2s;
   transition: all 0.4s ease 0.2s;
-  font: 500 20px/26px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 20px/26px 'Open Sans', sans-serif;
 }
 
 .portfolio-box .text {
@@ -1944,7 +1948,7 @@ button,
 -------------------------------------------------------------------*/
 .isotop-filter {
   margin: 0;
-  font: 300 18px/30px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 18px/30px 'Open Sans', sans-serif;
 }
 
 .isotop-filter li {
@@ -1993,7 +1997,7 @@ button,
 .t-section blockquote cite {
   display: block;
   letter-spacing: -0.6px;
-  font: 500 16px/30px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 16px/30px 'Open Sans', sans-serif;
 }
 
 .t-section .img {
@@ -2066,7 +2070,7 @@ button,
   margin: 0;
   color: #363636;
   letter-spacing: -0.8px;
-  font: 500 20px/28px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 20px/28px 'Open Sans', sans-serif;
 }
 
 .post .heading a {
@@ -2092,7 +2096,7 @@ button,
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  font: 500 14px/24px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 14px/24px 'Open Sans', sans-serif;
 }
 
 .post .play {
@@ -2137,7 +2141,7 @@ button,
   color: #fff;
   display: block;
   margin: 0 0 34px;
-  font: 500 14px/31px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 14px/31px 'Open Sans', sans-serif;
 }
 
 #footer .logo {
@@ -2387,14 +2391,14 @@ button,
   margin: 0 0 8px;
   letter-spacing: -1.4px;
   text-transform: uppercase;
-  font: 500 36px/40px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 36px/40px 'Open Sans', sans-serif;
 }
 
 .wedo-section .content-block .txt {
   display: block;
   margin: 0 0 13px;
   text-transform: uppercase;
-  font: 16px/20px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/20px 'Open Sans', sans-serif;
 }
 
 .wedo-section .content-block .btn {
@@ -2450,7 +2454,7 @@ button,
   display: block;
   color: #363636;
   margin: 0 0 15px;
-  font: 12px/34px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 12px/34px 'Open Sans', sans-serif;
 }
 
 .price-box .price {
@@ -2458,7 +2462,7 @@ button,
   color: #363636;
   margin: 0 0 5px;
   letter-spacing: -2px;
-  font: 600 70px/70px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 70px/70px 'Open Sans', sans-serif;
 }
 
 .price-box .price sup {
@@ -2501,7 +2505,7 @@ button,
   color: #363636;
   margin: 0 0 66px;
   letter-spacing: -1.5px;
-  font: 500 34px/47px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 34px/47px 'Open Sans', sans-serif;
 }
 
 .subscribe-form .input {
@@ -2630,7 +2634,7 @@ button,
 .quote-section blockquote .name {
   color: #363636;
   display: block;
-  font: 600 15px/20px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 15px/20px 'Open Sans', sans-serif;
 }
 
 .quote-section .img {
@@ -2655,7 +2659,7 @@ button,
   vertical-align: middle;
   letter-spacing: -0.8px;
   margin: -5px 54px 0 -8px;
-  font: 600 29px/50px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 29px/50px 'Open Sans', sans-serif;
 }
 
 /*------------------------------------------------------------------
@@ -2719,7 +2723,7 @@ button,
   margin: 0;
   color: #363636;
   letter-spacing: -0.8px;
-  font: 600 18px/28px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 18px/28px 'Open Sans', sans-serif;
 }
 
 .product-box .heading a {
@@ -2789,7 +2793,7 @@ button,
 .promo-block .heading {
   margin: 0 0 15px;
   letter-spacing: -1.4px;
-  font: 600 34px/48px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 34px/48px 'Open Sans', sans-serif;
 }
 
 .promo-block .heading.add {
@@ -2837,13 +2841,13 @@ button,
 .progress-bar .txt {
   float: left;
   color: #363636;
-  font: 18px/23px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 18px/23px 'Open Sans', sans-serif;
 }
 
 .progress-bar .number {
   float: right;
   color: #2c3e50;
-  font: 18px/32px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 18px/32px 'Open Sans', sans-serif;
 }
 
 /*------------------------------------------------------------------
@@ -2871,7 +2875,7 @@ button,
 .shop-header {
   overflow: hidden;
   padding-top: 17px;
-  font: 14px/14px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/14px 'Open Sans', sans-serif;
 }
 
 .shop-header .txt {
@@ -2966,7 +2970,7 @@ button,
   color: #363636;
   margin: 0 0 18px;
   letter-spacing: -1px;
-  font: 500 24px/36px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 24px/36px 'Open Sans', sans-serif;
 }
 
 /*------------------------------------------------------------------
@@ -3111,7 +3115,7 @@ button,
   color: #363636;
   margin: 0 0 24px;
   letter-spacing: -2.7px;
-  font: 600 70px/80px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 70px/80px 'Open Sans', sans-serif;
 }
 
 .section-404 p {
@@ -3194,7 +3198,7 @@ button,
   display: block;
   margin: 0 0 30px;
   letter-spacing: -1.7px;
-  font: 500 36px/40px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 36px/40px 'Open Sans', sans-serif;
 }
 
 .port-detail .subheading {
@@ -3202,7 +3206,7 @@ button,
   display: block;
   margin: 0 0 -3px;
   letter-spacing: -1px;
-  font: 500 18px/31px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 18px/31px 'Open Sans', sans-serif;
 }
 
 .port-detail .txt {
@@ -3251,7 +3255,7 @@ button,
   -webkit-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
-  font: 500 18px/26px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 18px/26px 'Open Sans', sans-serif;
 }
 
 /*------------------------------------------------------------------
@@ -3356,7 +3360,7 @@ button,
   color: #363636;
   margin: 0 0 28px;
   letter-spacing: -0.7px;
-  font: 500 18px/25px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 18px/25px 'Open Sans', sans-serif;
 }
 
 .widget ul {
@@ -3419,7 +3423,7 @@ button,
   display: block;
   color: #363636;
   letter-spacing: -0.5px;
-  font: 500 12px/20px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 12px/20px 'Open Sans', sans-serif;
 }
 
 .post-widget .head a {
@@ -3448,7 +3452,7 @@ button,
   float: left;
   color: #363636;
   margin: 0 0 20px;
-  font: 500 14px/20px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 14px/20px 'Open Sans', sans-serif;
 }
 
 .filter-widget .btn-filter {
@@ -3459,7 +3463,7 @@ button,
   padding: 4px 20px;
   border-radius: 30px;
   border: 1px solid #e0e0e0;
-  font: 500 10px/15px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 10px/15px 'Open Sans', sans-serif;
 }
 
 .filter-widget .btn-filter:hover {
@@ -3517,7 +3521,7 @@ button,
   transition: all ease 0.3s;
   border: 1px solid #e0e0e0;
   padding: 4px 11px 4px 12px;
-  font: 500 9px/15px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 9px/15px 'Open Sans', sans-serif;
 }
 
 .tags-widget a:hover {
@@ -3575,7 +3579,7 @@ button,
   color: #363636;
   margin: 0 0 12px;
   letter-spacing: -1.4px;
-  font: 500 36px/50px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 36px/50px 'Open Sans', sans-serif;
 }
 
 .product-detail .star {
@@ -3592,7 +3596,7 @@ button,
   color: #363636;
   margin: 0 0 18px 3px;
   letter-spacing: -0.9px;
-  font: 500 20px/30px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 20px/30px 'Open Sans', sans-serif;
 }
 
 .product-detail .price del {
@@ -3678,13 +3682,13 @@ button,
   display: block;
   margin: 0 0 38px;
   letter-spacing: -0.8px;
-  font: 500 20px/35px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 20px/35px 'Open Sans', sans-serif;
 }
 
 .product-tabsec .tabset {
   margin: 0 0 50px;
   border-bottom: 1px solid #e5e5e5;
-  font: 500 16px/30px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 16px/30px 'Open Sans', sans-serif;
 }
 
 .product-tabsec .tabset li {
@@ -3765,7 +3769,7 @@ button,
   display: inline-block;
   vertical-align: middle;
   letter-spacing: -0.8px;
-  font: 500 18px/25px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 18px/25px 'Open Sans', sans-serif;
 }
 
 .product-tabsec .review-list .time {
@@ -3834,7 +3838,7 @@ button,
   display: block;
   margin: 0 0 38px;
   letter-spacing: -0.8px;
-  font: 500 20px/25px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 20px/25px 'Open Sans', sans-serif;
 }
 
 .product-tabsec .review-form .star {
@@ -3883,7 +3887,7 @@ button,
   display: block;
   margin: 0 0 38px;
   letter-spacing: -0.8px;
-  font: 500 24px/37px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 24px/37px 'Open Sans', sans-serif;
 }
 
 /*------------------------------------------------------------------
@@ -3915,7 +3919,7 @@ button,
   display: block;
   margin: 0 0 1px;
   letter-spacing: -1.3px;
-  font: 500 30px/45px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 30px/45px 'Open Sans', sans-serif;
 }
 
 .blog-detail .meta {
@@ -4011,7 +4015,7 @@ button,
   color: #363636;
   margin: 0 0 42px;
   letter-spacing: -1px;
-  font: 500 24px/35px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 24px/35px 'Open Sans', sans-serif;
 }
 
 .cart-block .cart-list {
@@ -4128,7 +4132,7 @@ button,
   display: inline-block;
   vertical-align: middle;
   letter-spacing: -0.8px;
-  font: 500 18px/25px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 18px/25px 'Open Sans', sans-serif;
 }
 
 .cart-block .row-box .txt a {
@@ -4143,7 +4147,7 @@ button,
   padding: 27px 0 0;
   display: inline-block;
   vertical-align: middle;
-  font: 500 18px/25px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 18px/25px 'Open Sans', sans-serif;
 }
 
 .cart-block .row-box:last-child {
@@ -4210,7 +4214,7 @@ button,
   -o-transition: all .3s ease;
   transition: all .3s ease;
   text-transform: uppercase;
-  font: 500 12px/26px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 12px/26px 'Open Sans', sans-serif;
 }
 
 .cart-block .subtotal {
@@ -4218,7 +4222,7 @@ button,
   padding: 7px 0 0;
   color: #999;
   letter-spacing: -0.7px;
-  font: 18px/30px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 18px/30px 'Open Sans', sans-serif;
 }
 
 .cart-block .subtotal .add {
@@ -4238,7 +4242,7 @@ button,
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  font: 500 14px/20px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 14px/20px 'Open Sans', sans-serif;
 }
 
 .cart-block .summery {
@@ -4486,7 +4490,7 @@ button,
   display: block;
   margin: 0 0 26px;
   letter-spacing: -2.5px;
-  font: 500 70px/80px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 500 70px/80px 'Open Sans', sans-serif;
 }
 
 .coming-section p {
@@ -4510,14 +4514,14 @@ button,
 .coming-section .countdown-amount {
   display: block;
   margin: 0 0 -6px;
-  font: 55px/70px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 55px/70px 'Open Sans', sans-serif;
 }
 
 .coming-section .countdown-period {
   color: #fff;
   display: block;
   text-transform: capitalize;
-  font: 300 18px/30px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 18px/30px 'Open Sans', sans-serif;
 }
 
 .coming-section .is-countdown {
@@ -4539,7 +4543,7 @@ button,
   color: #282828;
   display: block;
   margin: 0 0 3px;
-  font: 700 28px/30px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 700 28px/30px 'Open Sans', sans-serif;
 }
 
 .quote-form .form-title {
