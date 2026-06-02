@@ -249,7 +249,11 @@ $(document).ready(function() {
 				var scrollPos = jQuery(window).scrollTop();
 				var windowHeight = jQuery(window).height();
 			  
-				var activeSection = jQuery('.wedo-section').offset().top - 50;
+				var wedoSection = jQuery('.wedo-section');
+				if(!wedoSection.length) {
+					return;
+				}
+				var activeSection = wedoSection.offset().top - 50;
 				if(scrollPos > activeSection){
 					var item = jQuery('.bar-outer .bar');
 					var percent = item.attr('data-width');
@@ -328,7 +332,10 @@ $(document).ready(function() {
             // If the count down is over, write some text 
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
+                var demoEl = document.getElementById("demo");
+                if (demoEl) {
+                    demoEl.innerHTML = "EXPIRED";
+                }
             }
         }, 1000);
 	}

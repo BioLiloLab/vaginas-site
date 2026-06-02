@@ -3,8 +3,8 @@ title: Artist's Vaginas
 subtitle: 
 
 # URL
-url: http://
-baseurl: /
+url: "https://biolilolab.github.io"
+baseurl: "/vaginas-site"
 permalink: :title/
 include: ['_pages']
 

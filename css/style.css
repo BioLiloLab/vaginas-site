@@ -1,7 +1,7 @@
 /*
 Theme Name: Be - Startup Business HTML Template
 Author: Adnan and Tameer
-Author URI: 
+Author URI:
 Version: 1.0
 Text Domain: Be
 Tags: one-column, two-columns
@@ -11,7 +11,7 @@ Theme URI:
 
 1. import files
 2. Global style classes
-3. Global buttons style 
+3. Global buttons style
 4. Main heading styles   /   .main-heading
 5. page header styles   /   .page-header
 6. breadcrumbs styles   /  .breadcrumbs
@@ -838,7 +838,7 @@ button,
 }
 
 /*------------------------------------------------------------------
-	3. Global buttons style 
+	3. Global buttons style
 -------------------------------------------------------------------*/
 .btn-green {
   color: #fff;
@@ -1105,7 +1105,7 @@ button,
 }
 
 #header.nospace #nav a {
-  color: #fff;
+  color: #191562;
 }
 
 #header.sticky .header-holder {
@@ -1235,6 +1235,82 @@ button,
 
 #nav a:hover {
   color: #363636;
+}
+
+#nav .language-switcher {
+  margin-left: 10px;
+  padding: 2px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(25, 21, 98, 0.12);
+  font-size: 0;
+  vertical-align: middle;
+}
+
+#nav .language-switcher .language-label {
+  display: none;
+}
+
+#nav .language-switcher .language-option {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.92);
+  background: transparent;
+  border-radius: 12px;
+  -webkit-transition: color 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+  transition: color 0.2s ease, opacity 0.2s ease, background 0.2s ease;
+}
+
+#nav .language-switcher .language-option + .language-option {
+  margin-left: 1px;
+}
+
+#nav .language-switcher .language-option:hover,
+#header.nospace #nav .language-switcher .language-option:hover,
+#header.nospace #nav li.language-switcher:hover > .language-option:not(.is-active) {
+  color: #fff;
+  opacity: 0.82;
+  text-decoration: underline;
+  background: transparent;
+}
+
+#nav .language-switcher .language-option.is-active,
+#nav .language-switcher .language-option.is-active:hover,
+#header.nospace #nav .language-switcher .language-option.is-active,
+#header.nospace #nav .language-switcher .language-option.is-active:hover,
+#header.nospace #nav li.language-switcher:hover > .language-option.is-active {
+  background: #78F1A8;
+  color: #191562;
+  opacity: 1;
+  text-decoration: none;
+}
+
+#header.sticky .header-holder #nav .language-switcher {
+  border-color: rgba(25, 21, 98, 0.25);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+#header.sticky .header-holder #nav .language-switcher .language-option {
+  color: #4c4575;
+}
+
+#header.sticky .header-holder #nav .language-switcher .language-option:hover,
+#header.sticky .header-holder #nav li.language-switcher:hover > .language-option:not(.is-active) {
+  color: #4c4575;
+  opacity: 0.75;
+  background: transparent;
+  text-decoration: underline;
+}
+
+#header.sticky .header-holder #nav .language-switcher .language-option.is-active,
+#header.sticky .header-holder #nav .language-switcher .language-option.is-active:hover,
+#header.sticky .header-holder #nav li.language-switcher:hover > .language-option.is-active {
+  background: #78F1A8;
+  color: #191562;
+  opacity: 1;
+  text-decoration: none;
 }
 
 #nav .drop-link {
@@ -2568,7 +2644,7 @@ button,
 }
 
 .img-box .red {
-    
+
 }
 .team-box .heading {
   margin: 0;
